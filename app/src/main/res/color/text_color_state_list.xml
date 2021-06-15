@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/putColor" android:state_pressed="true" />
+    <item android:color="@color/importColor" android:state_pressed="false" />
+    <!--默认项-->
+    <item android:color="@color/importColor" />
+</selector>

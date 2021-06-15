@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qmui_config_color_white"
+    android:fitsSystemWindows="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <com.qmuiteam.qmui.widget.QMUITopBar
+                android:id="@+id/qmuiBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:qmui_topbar_title_color="@color/qmui_config_color_black" />
+
+            <com.qmuiteam.qmui.alpha.QMUIAlphaTextView
+                android:id="@+id/importBtn"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="导出"
+                android:gravity="center"
+                android:textColor="@color/importColor" />
+
+            <com.qmuiteam.qmui.alpha.QMUIAlphaTextView
+                android:id="@+id/addButton"
+                android:layout_width="60dp"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_toLeftOf="@id/importBtn"
+                android:text="添加"
+                android:textColor="@color/putColor" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/apis_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>
