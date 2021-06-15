@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BFC6C6</color>
+    <color name="colorPrimaryDark">#E7EEED</color>
+    <color name="colorAccent">#C9C7C8</color>
+    <color name="FristRowBackGroudColor">#daf5ff</color>
+    <color name="TableHeadTextColor">#7a9efa</color>
+    <color name="TableContentTextColor">#9797ac</color>
+    <color name="OnItemSeletor">#b4b4b2</color>
+    <color name="importColor">#03A9F4</color>
+    <color name="deleteColor">#FF1100</color>
+    <color name="putColor">#00BCD4</color>
+</resources>
